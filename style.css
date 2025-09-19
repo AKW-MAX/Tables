@@ -1,0 +1,44 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead, tbody, tfoot {
+    padding: 10px;
+    font-family: sans-serif;
+    align-items: center;
+}
+th {
+    background-color: rgb(214, 211, 211);
+    font-size: larger;
+
+}
+td {
+    font-size: small;
+    overflow-wrap: break-word;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    height: 1pc;
+    font-weight: bolder;
+
+}
+tfoot{
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+
+
+    
+
+
+
+
